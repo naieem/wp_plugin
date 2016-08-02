@@ -1,0 +1,19 @@
+.product_category_title {
+    color: #fa713a;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.product-categories li{background-image:url(../images/list_marker_03.jpg); background-repeat:no-repeat; background-position:10px 16px;border-bottom:1px solid #ebebeb;padding: 10px 0px; position:relative;}
+.children li{border:none;}
+.product-categories li a{padding-left:30px; text-transform:capitalize; font-weight:600; color:#676767;}
+.product-categories li .count{color:#676767; font-weight:600;}
+.product-categories{ margin:0 !important; padding:0 !important;}
+.list_parent {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.list_parent .fa{cursor:pointer;}
+.children{display:none;}
